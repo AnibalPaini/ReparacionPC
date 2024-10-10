@@ -15,21 +15,12 @@ body {
 header {
     background-color: #333;
     padding: 10px 0;
-}
-
-nav ul {
     display: flex;
     justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
+header h2{
+    margin-top: 10px;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -104,14 +95,48 @@ footer {
     text-align: center;
     padding: 20px;
 }
+footer p{
+    margin-top: 5px;
+}
 
 footer a{
     color: #ffffff;
 }
 
+.social-icons{
+    margin-top: 5px;
+}
+
 .social-icons a {
-    color: #fff;
+    color: #9274ff;
     text-decoration: none;
     margin: 0 10px;
 }
+
+.wha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    background-color: white; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.wha img {
+    width: 80px;  
+    height: 80px;
+}
+
+@media (max-width:500px){
+    .wha {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
 
